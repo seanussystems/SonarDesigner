@@ -1,5 +1,5 @@
 // Beam Pattern Charts
-// Date 18.06.22
+// Date 26.06.22
 
 unit FChart;
 
@@ -148,8 +148,8 @@ begin
   sbMainLobe.Position  := Round(Rka);
   sbBeamWidth.Position := Round(Rbw);
   FormChart.Show;
-  cbBeamWidth.Checked := ShowBeamwidth;
-  cbEnvelope.Checked  := False;
+  cbBeamWidth.Checked  := ShowBeamwidth;
+  cbEnvelope.Checked   := False;
   pcBeamPattern.CopyToBMP(sRchart, False);
   FormChart.Close;
   ChartShow := fsNone;

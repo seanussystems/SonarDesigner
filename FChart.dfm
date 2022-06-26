@@ -92,7 +92,6 @@ object FormChart: TFormChart
     ParentFont = False
     ReadOnly = True
     TabOrder = 0
-    ExplicitTop = 281
   end
   object edAngle: TEdit
     Left = 120
@@ -112,7 +111,6 @@ object FormChart: TFormChart
     ParentFont = False
     ReadOnly = True
     TabOrder = 1
-    ExplicitTop = 281
   end
   object cbBeamWidth: TRzCheckBox
     Left = 8
@@ -159,7 +157,13 @@ object FormChart: TFormChart
     Min = 20
     Value = 73
     OnChange = spZoomChange
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -13
+    Font.Name = 'Fixedsys'
+    Font.Style = []
     ParentColor = False
+    ParentFont = False
     ParentShowHint = False
     ShowHint = True
     TabOrder = 6
@@ -174,7 +178,13 @@ object FormChart: TFormChart
     Min = -180
     Value = -40
     OnChange = spAngleChange
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -13
+    Font.Name = 'Fixedsys'
+    Font.Style = []
     ParentColor = False
+    ParentFont = False
     ParentShowHint = False
     ShowHint = True
     TabOrder = 7

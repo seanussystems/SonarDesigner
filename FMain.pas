@@ -315,8 +315,8 @@ var
   DataFolder: string;  //19.06.22 old=DefaultDir
   DefaultPar: string;
   DefaultMat: string;
-  LeftOffset: Integer;
-  TopOffset: Integer;
+  //LeftOffset: Integer;
+  //TopOffset: Integer;
   BeamLevel: Integer;
   BeamRange: Integer;
   TransBeams: Integer;
@@ -341,8 +341,8 @@ procedure TFormMain.FormCreate(Sender: TObject);
 begin
   Position      := poDesktopCenter;
   Caption       := ProductAgent; //19.06.22 old=ProductHeader;
-  LeftOffset    := -6;
-  TopOffset     := -10;
+  //LeftOffset    := -6;
+  //TopOffset     := -10;
 
   ChartShow     := fsNone;
   SonarShow     := fsNone;
@@ -388,10 +388,10 @@ begin
     DispMessage('Ready...', COL_NORM);
   end;
 
-  Left       := Left + LeftOffset;
-  Top        := Top  + TopOffset;
-  LeftOffset := 0;
-  TopOffset  := 0;
+  //Left       := Left + LeftOffset;
+  //Top        := Top  + TopOffset;
+  //LeftOffset := 0;
+  //TopOffset  := 0;
 end;
 
 procedure TFormMain.DoCalculations(Sender: TObject);
